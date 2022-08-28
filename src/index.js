@@ -14,8 +14,7 @@
 // console.log(message2);
 
 // const myProfile = ["じゃけえ", 28];
-// 配列の場合はキーが決まってないので順番で渡ってくる
-// const [name, age] = myProfile;
+// const [name, age] = myProfile; // 配列の場合はキーが決まってないので順番で渡ってくる
 // const message3 = `名前は${name}です。年齢は${age}歳です。`;
 // console.log(message3);
 
@@ -68,3 +67,17 @@ const newNumArr = numArr.filter((num) => {
   }
 }); */
 // console.log(newNameArr);
+
+/* 
+三項演算子
+*/
+// const num = "1300";
+
+// const fotmattedNum =
+//   typeof num === "number" ? num.toLocaleString() : "数値を入力してください";
+// console.log(fotmattedNum);
+
+// const checkSum = (num1, num2) => {
+//   return num1 + num2 > 100 ? "100を超えています!!" : "許容範囲内です";
+// };
+// console.log(checkSum(50, 40));
